@@ -3,7 +3,7 @@ package handler
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
-	"github.com/stencil-run/stencil-go/errors"
+	"github.com/stancil-gen/stancil-go/errors"
 )
 
 var validate = validator.New()
